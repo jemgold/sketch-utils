@@ -1,0 +1,11 @@
+{
+  "name": "sketch-utils",
+  "version": "0.0.0",
+  "description": "Things that didn't fit into react-sketchapp",
+  "main": "index.js",
+  "author": "Jon Gold <hello@designedbygold.com> (http://jon.gold)",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "2.0.0-beta.38"
+  }
+}
