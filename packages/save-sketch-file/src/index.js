@@ -2,8 +2,8 @@
 
 export default path => (context) => {
   const url = NSURL.fileURLWithPath(path);
-  const typeName = 'sketch';
-  const saveOperation = NSSaveOperation;
+  const typeName = 'com.bohemiancoding.sketch.drawing';
+  const saveOperation = NSSaveAsOperation;
   const error = null;
   context.document.saveToURL_ofType_forSaveOperation_error(
     url,
